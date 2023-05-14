@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./styleformulario.css" class="css">
+</head>
+<body>
+    <h1>INFORMAÇÕES PESSOAIS</h1>
+
+    <div class="formulario">
+    <form>
+        <label for="nome">Nome: </label>
+        <input type="text"> <br>
+        <label for="datanascimento">Data de Nascimento: </label>
+        <input type="date"> <br>
+
+        <label for="sexo">Sexo: </label>
+        <input type="radio" id="masculino" name="sexop" value="Masculino"> 
+        <label for="masculino">Masculino</label>  
+        <input type="radio" id="feminino" name="sexop" value="Feminino"> 
+        <label for="feminino">Feminino</label>     
+        <input type="radio" id="seminformar" name="sexop" value="SemInformar"> 
+        <label for="seminformar">Prefiro não informar</label> <br>
+        
+        <label for="endereco">Endereço: </label>
+        <input type="text"><br>
+
+        <label for="endereco">Logradouro: </label>
+        <input type="text"><br>
+
+        <label for="endereco">Bairro: </label>
+        <input type="text"><br>
+
+        <label for="endereco">Cidade: </label>
+        <input type="text"><br>
+
+        <label for="uf">UF</label>
+        <select id="uf" name="unidadesfederativas" form="uf">
+            <option value="df">DF</option>
+            <option value="rj">RJ</option>
+            <option value="sp">SP</option>
+            <option value="mg">MG</option>
+        </select> <br>
+
+        <label for="email">Email: </label>
+        <input type="text"> <br>
+
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+        
+    </form>
+</div>
+
+<center>
+<a href="index.html">Voltar para o site</a>
+</center>
+
+</body>
+</htmL>
